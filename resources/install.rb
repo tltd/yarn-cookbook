@@ -2,6 +2,7 @@ require 'etc'
 
 resource_name :yarn_install
 provides :yarn_install
+unified_mode true
 
 property :dir, String, name_property: true
 property :user, String

@@ -2,6 +2,7 @@ require 'etc'
 
 resource_name :yarn_run
 provides :yarn_run
+unified_mode true
 
 property :script, String, name_property: true
 property :user, String
